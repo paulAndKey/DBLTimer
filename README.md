@@ -8,7 +8,7 @@
 @property (nonatomic, copy) NSString *task;
 
 self.task = [DBLTimer execTask:^{
-   
+   //执行任务
 } start: interval: repeats: async:];
 ```
 
